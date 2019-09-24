@@ -3,7 +3,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    max-width:50rem;
+    min-height:15rem; 
+    margin:0 auto;
 }
 .iphone11pro{
     color: white;
@@ -11,16 +13,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    max-width:50rem;/* is equal to 800px;*/
+    min-height:15rem; 
+    margin:0 auto;
 }
 .iphone11pro a{
     color: white;
-    padding-right: 50px;
+    padding-right: 3.125rem;
 }
 .iphone11 a{
     color:black;
-    padding-right: 50px;
-    height: 500;
+    padding-right: 3.125rem;/*50px*/
+    max-width:50rem;
+    min-height: 10rem;
 
 }
 .applewatch{
@@ -28,7 +33,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
+    max-width:50rem; /* is equal to 800px;*/
+    min-height: 15rem;
+    margin:0 auto;
 }
 .menu{
     background-color: black;
@@ -37,15 +44,16 @@
 color: white;
 border-top: 2px solid;
 border-top-color: grey;
-padding-top:15px;
-padding-bottom: 5px;
+padding-top:0.9375rem;
+padding-bottom: 0.3125rem;
 list-style: none;
 }
 /*.menu a{
     max-width: 50rem;
     margin: 0 auto;
 }*/
-.widthmx{
+/*.widthmx{
+    padding-right: 50px;
         max-width: 50rem;
         margin: 0 auto;
-}
+}*/
