@@ -39,6 +39,8 @@
 }
 .menu{
     background-color: black;
+    max-width:50rem; /* is equal to 800px;*/
+    min-height: 15rem;
 }
 .menu li{
 color: white;
