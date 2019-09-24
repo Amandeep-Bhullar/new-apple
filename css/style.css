@@ -1,4 +1,51 @@
-header{
-    background-color:darkgrey;
-    
+.iphone11{
+    background-image: url('../img/iphone11.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.iphone11pro{
+    color: white;
+    background-image: url('../img/iphone11pro.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.iphone11pro a{
+    color: white;
+    padding-right: 50px;
+}
+.iphone11 a{
+    color:black;
+    padding-right: 50px;
+    height: 500;
+
+}
+.applewatch{
+    background-image: url('../img/applewatch.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.menu{
+    background-color: black;
+}
+.menu li{
+color: white;
+border-top: 2px solid;
+border-top-color: grey;
+padding-top:15px;
+padding-bottom: 5px;
+list-style: none;
+}
+/*.menu a{
+    max-width: 50rem;
+    margin: 0 auto;
+}*/
+.widthmx{
+        max-width: 50rem;
+        margin: 0 auto;
 }
