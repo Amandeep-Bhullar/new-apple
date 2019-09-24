@@ -39,10 +39,14 @@
 }
 .menu{
     background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     max-width:50rem; /* is equal to 800px;*/
     min-height: 10rem;
     padding-right: 1.5625rem;
     padding-left: 1.5625rem;
+    margin:0 auto;
 
 }
 .menu li{
@@ -51,7 +55,7 @@ border-top: 2px solid;
 border-top-color: grey;
 padding-top:0.9375rem;
 padding-bottom: 0.3125rem;
-margin: 0 auto;
+/*margin: 0 auto;*/
 list-style: none;
 }
 /*.menu a{
