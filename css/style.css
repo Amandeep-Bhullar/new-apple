@@ -6,6 +6,7 @@
     max-width:50rem;
     min-height:15rem; 
     margin:0 auto;
+    padding-top:2rem;
 }
 .iphone11pro{
     color: white;
@@ -16,10 +17,12 @@
     max-width:50rem;/* is equal to 800px;*/
     min-height:15rem; 
     margin:0 auto;
+    padding-top:2rem;
 }
 .iphone11pro a{
     color: white;
     padding-right: 3.125rem;
+    
 }
 .iphone11 a{
     color:black;
@@ -51,19 +54,71 @@
 }
 .menu li{
 color: white;
-border-top: 2px solid;
-border-top-color: grey;
+border-bottom: 1px solid;/*to create a line*/
+border-bottom-color: grey;
 padding-top:0.9375rem;
-padding-bottom: 0.3125rem;
+padding-bottom: 0.3125rem;/*extra bottom space with the content*/
 /*margin: 0 auto;*/
 list-style: none;
 }
-/*.menu a{
-    max-width: 50rem;
-    margin: 0 auto;
-}*/
-/*.widthmx{
-    padding-right: 50px;
-        max-width: 50rem;
-        margin: 0 auto;
-}*/
+.topbar{
+    background-color: black;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* padding:0 0 0 2%; */
+    max-width:50rem;
+    min-height:3rem;
+    margin:0 auto;
+}
+.search{
+    background-color:grey;
+     /* background-image: url('../img/search.svg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:50rem; /* is equal to 800px;*/
+    min-height: 2rem;
+    padding-right: 1.5625rem;
+    padding-left: 1.5625rem;
+    margin:0 auto;
+
+}
+.logo{
+    display: block;
+    box-sizing:border-box;
+    mask-repeat: no-repeat;
+    padding: 0 0 0 49%;
+}
+.cart{
+    display: block;
+    box-sizing:border-box;
+    mask-repeat: no-repeat;
+    margin-right:25rem;  
+    align-items: right;
+}
+.search-background{
+    background-color: black;
+    max-width:50rem; 
+    min-height: 2rem;
+    padding-right: 1.5625rem;
+    padding-left: 1.5625rem;
+    margin:0 auto;
+
+}
+.clssearch{
+    
+    width:39rem; 
+    min-height: 2rem;
+    padding-right: 1.5625rem;
+    padding-left: 1.5625rem;
+    margin:0 auto;
+    background-color:grey;
+     /* background-image: url('../img/search.svg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width: 0px;
+    color: white;
+}
+::placeholder {
+    color: white;
+  }
