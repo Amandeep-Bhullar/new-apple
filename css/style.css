@@ -7,6 +7,7 @@
     min-height:15rem; 
     margin:0 auto;
     padding-top:2rem;
+    text-align: center;
 }
 .iphone11pro{
     color: white;
@@ -18,6 +19,7 @@
     min-height:15rem; 
     margin:0 auto;
     padding-top:2rem;
+    text-align: center;
 }
 .iphone11pro a{
     color: white;
@@ -39,6 +41,7 @@
     max-width:50rem; /* is equal to 800px;*/
     min-height: 15rem;
     margin:0 auto;
+    text-align: center;
 }
 .menu{
     background-color: black;
@@ -84,7 +87,8 @@ list-style: none;
 
 }
 .logo{
-    display: block;
+    display: inline;
+    text-align:center;
     box-sizing:border-box;
     mask-repeat: no-repeat;
     padding: 0 0 0 49%;
@@ -122,3 +126,8 @@ list-style: none;
 ::placeholder {
     color: white;
   }
+  /* .iphone11proalign{ 
+    display: inline;
+    text-align: center;
+
+  }*/
